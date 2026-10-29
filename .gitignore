@@ -1,0 +1,15 @@
+@'
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.env
+
+dataset/Reviews.csv
+dataset/processed_reviews.csv
+dataset/preprocessed_reviews.csv
+
+models/tfidf_features.joblib
+models/train_data.joblib
+models/test_data.joblib
+'@ | Set-Content -Encoding utf8 .gitignore
